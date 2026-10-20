@@ -1,0 +1,118 @@
+{
+  "name": "Mercurius",
+  "type": "server",
+  "description": "Implement GraphQL servers and gateways with Fastify.",
+  "url": "https://github.com/mercurius-js/mercurius",
+  "features": {
+    "automatic-persisted-queries": {
+      "since": "5.0.0",
+      "note": "With `persistedQueryProvider: mercurius.persistedQueryDefaults.automatic()`. [Read more.](https://github.com/mercurius-js/mercurius/blob/master/docs/persisted-queries.md)"
+    },
+    "capabilities": {
+      "since": "-"
+    },
+    "covariant-fields-merging": {
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../graphql-js)"
+    },
+    "defer": {
+      "since": "16.12.0",
+      "note": "Requires `graphql@17` and the `defer` option. Clients must send `Accept: multipart/mixed; deferSpec=20220824`. Not compatible with `jit`. [Read more.](https://github.com/mercurius-js/mercurius/blob/master/docs/api/options.md)"
+    },
+    "deprecated-input-values": {
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../graphql-js)"
+    },
+    "deprecated-objects": {
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../graphql-js)"
+    },
+    "directives-on-directives": {
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../graphql-js)"
+    },
+    "directives-on-variable-definitions": {
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../graphql-js)"
+    },
+    "empty-abstract-types": {
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../graphql-js)"
+    },
+    "empty-object-types": {
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../graphql-js)"
+    },
+    "empty-selection-sets": {
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../graphql-js)"
+    },
+    "executable-documents-descriptions": {
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../graphql-js)"
+    },
+    "field-extensions": {
+      "since": "?"
+    },
+    "fragment-arguments": {
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../graphql-js)"
+    },
+    "graphql-over-http": {
+      "since": "partial",
+      "note": "GET and POST are supported, but there is no `Accept` negotiation and responses to requests without data may use status 200."
+    },
+    "graphql-response+json": {
+      "since": "-"
+    },
+    "http-batching": {
+      "since": "4.1.0",
+      "note": "Enable with the `allowBatchedQueries` option. [Read more.](https://github.com/mercurius-js/mercurius/blob/master/docs/batched-queries.md)"
+    },
+    "interfaces-on-interfaces": {
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../graphql-js)"
+    },
+    "mutations": {
+      "since": ""
+    },
+    "on-error": {
+      "since": "-"
+    },
+    "one-of": {
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../graphql-js)"
+    },
+    "persisted-documents": {
+      "since": "3.6.0",
+      "note": "With the `persistedQueries` option. [Read more.](https://github.com/mercurius-js/mercurius/blob/master/docs/persisted-queries.md)"
+    },
+    "queries": {
+      "since": ""
+    },
+    "query-http-verb": {
+      "since": "16.12.0"
+    },
+    "repeatable-directives": {
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../graphql-js)"
+    },
+    "semantic-introspection": {
+      "since": "-"
+    },
+    "semantic-non-null": {
+      "since": "-"
+    },
+    "specified-by": {
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../graphql-js)"
+    },
+    "stream": {
+      "since": "-"
+    },
+    "subscriptions": {
+      "since": "",
+      "note": "Over WebSocket. [Read more.](https://github.com/mercurius-js/mercurius/blob/master/docs/subscriptions.md)"
+    }
+  }
+}
