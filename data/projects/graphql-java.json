@@ -4,19 +4,23 @@
   "description": "A Java library for building GraphQL APIs.",
   "url": "https://github.com/graphql-java/graphql-java",
   "features": {
-    "graphql-response+json": {
-      "since": "n/a",
-      "note": "GraphQL Java is transport agnostic."
-    },
-    "graphql-over-http": {
-      "since": "n/a",
-      "note": "GraphQL Java is transport agnostic."
-    },
-    "one-of": {
-      "since": "21.2"
+    "automatic-persisted-queries": {
+      "since": "",
+      "note": ""
     },
     "capabilities": {
       "since": "?"
+    },
+    "covariant-fields-merging": {
+      "since": "-",
+      "note": ""
+    },
+    "defer": {
+      "since": "?"
+    },
+    "deprecated-input-values": {
+      "since": "",
+      "note": ""
     },
     "deprecated-objects": {
       "since": "?"
@@ -25,46 +29,30 @@
       "since": "26.1",
       "note": "[pr](https://github.com/graphql-java/graphql-java/pull/4432)"
     },
+    "directives-on-variable-definitions": {
+      "since": "",
+      "note": ""
+    },
     "executable-documents-descriptions": {
       "since": "master",
       "note": "[pr](https://github.com/graphql-java/graphql-java/pull/4392)"
     },
-    "fragment-arguments": {
-      "since": "?"
-    },
-    "on-error": {
-      "since": "-",
-      "note": "[pr](https://github.com/graphql-java/graphql-java/pull/4378)"
-    },
-    "semantic-introspection": {
-      "since": "?"
-    },
-    "semantic-non-null": {
-      "since": "?"
-    },
-    "defer": {
-      "since": "?"
-    },
-    "stream": {
-      "since": "?"
-    },
     "field-extensions": {
       "since": "?"
     },
-    "http-batching": {
+    "fragment-arguments": {
       "since": "?"
     },
-    "automatic-persisted-queries": {
-      "since": "",
-      "note": ""
+    "graphql-over-http": {
+      "since": "n/a",
+      "note": "GraphQL Java is transport agnostic."
     },
-    "deprecated-input-values": {
-      "since": "",
-      "note": ""
+    "graphql-response+json": {
+      "since": "n/a",
+      "note": "GraphQL Java is transport agnostic."
     },
-    "directives-on-variable-definitions": {
-      "since": "",
-      "note": ""
+    "http-batching": {
+      "since": "?"
     },
     "interfaces-on-interfaces": {
       "since": "",
@@ -73,6 +61,13 @@
     "mutations": {
       "since": "",
       "note": ""
+    },
+    "on-error": {
+      "since": "-",
+      "note": "[pr](https://github.com/graphql-java/graphql-java/pull/4378)"
+    },
+    "one-of": {
+      "since": "21.2"
     },
     "persisted-documents": {
       "since": "n/a",
@@ -86,16 +81,21 @@
       "since": "",
       "note": ""
     },
+    "semantic-introspection": {
+      "since": "?"
+    },
+    "semantic-non-null": {
+      "since": "?"
+    },
     "specified-by": {
       "since": "",
       "note": ""
     },
+    "stream": {
+      "since": "?"
+    },
     "subscriptions": {
       "since": "",
-      "note": ""
-    },
-    "covariant-fields-merging": {
-      "since": "-",
       "note": ""
     }
   }

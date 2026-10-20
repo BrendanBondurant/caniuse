@@ -4,18 +4,20 @@
   "description": "Fusion is ChilliCream's GraphQL federation gateway for .NET, part of the GraphQL Platform",
   "url": "https://github.com/ChilliCream/graphql-platform",
   "features": {
-    "graphql-response+json": {
-      "since": ""
-    },
-    "graphql-over-http": {
-      "since": "",
-      "note": "[pr](https://github.com/ChilliCream/graphql-platform/pull/5367)"
-    },
-    "one-of": {
+    "automatic-persisted-queries": {
       "since": ""
     },
     "capabilities": {
       "since": "-"
+    },
+    "covariant-fields-merging": {
+      "since": "-"
+    },
+    "defer": {
+      "since": ""
+    },
+    "deprecated-input-values": {
+      "since": ""
     },
     "deprecated-objects": {
       "since": "16.6.1",
@@ -24,47 +26,42 @@
     "directives-on-directives": {
       "since": ""
     },
+    "directives-on-variable-definitions": {
+      "since": ""
+    },
+    "empty-selection-sets": {
+      "since": "16.7.0",
+      "note": "Opt-in via `EnableEmptySelectionSets` ([pr](https://github.com/ChilliCream/graphql-platform/pull/10337))"
+    },
     "executable-documents-descriptions": {
-      "since": ""
-    },
-    "fragment-arguments": {
-      "since": "-"
-    },
-    "on-error": {
-      "since": ""
-    },
-    "semantic-introspection": {
-      "since": ""
-    },
-    "semantic-non-null": {
-      "since": "16.0.0",
-      "note": "[pr](https://github.com/ChilliCream/graphql-platform/pull/9604)"
-    },
-    "defer": {
-      "since": ""
-    },
-    "stream": {
-      "since": "-"
-    },
-    "http-batching": {
       "since": ""
     },
     "field-extensions": {
       "since": "16.0.0"
     },
-    "automatic-persisted-queries": {
+    "fragment-arguments": {
+      "since": "-"
+    },
+    "graphql-over-http": {
+      "since": "",
+      "note": "[pr](https://github.com/ChilliCream/graphql-platform/pull/5367)"
+    },
+    "graphql-response+json": {
       "since": ""
     },
-    "deprecated-input-values": {
-      "since": ""
-    },
-    "directives-on-variable-definitions": {
+    "http-batching": {
       "since": ""
     },
     "interfaces-on-interfaces": {
       "since": ""
     },
     "mutations": {
+      "since": ""
+    },
+    "on-error": {
+      "since": ""
+    },
+    "one-of": {
       "since": ""
     },
     "persisted-documents": {
@@ -77,18 +74,21 @@
     "repeatable-directives": {
       "since": ""
     },
+    "semantic-introspection": {
+      "since": ""
+    },
+    "semantic-non-null": {
+      "since": "16.0.0",
+      "note": "[pr](https://github.com/ChilliCream/graphql-platform/pull/9604)"
+    },
     "specified-by": {
       "since": ""
     },
-    "subscriptions": {
-      "since": ""
-    },
-    "covariant-fields-merging": {
+    "stream": {
       "since": "-"
     },
-    "empty-selection-sets": {
-      "since": "16.7.0",
-      "note": "Opt-in via `EnableEmptySelectionSets` ([pr](https://github.com/ChilliCream/graphql-platform/pull/10337))"
+    "subscriptions": {
+      "since": ""
     }
   }
 }

@@ -4,15 +4,20 @@
   "description": "Nitro is a cross-platform GraphQL IDE.",
   "url": "https://chillicream.com/products/nitro",
   "features": {
-    "graphql-response+json": {
+    "automatic-persisted-queries": {
       "since": "-"
-    },
-    "one-of": {
-      "since": "(partial)",
-      "note": "Recognized when a schema is loaded via an SDL endpoint, but dropped on the introspection path"
     },
     "capabilities": {
       "since": "-"
+    },
+    "covariant-fields-merging": {
+      "since": "n/a"
+    },
+    "defer": {
+      "since": ""
+    },
+    "deprecated-input-values": {
+      "since": ""
     },
     "deprecated-objects": {
       "since": ""
@@ -20,48 +25,37 @@
     "directives-on-directives": {
       "since": "-"
     },
+    "directives-on-variable-definitions": {
+      "since": ""
+    },
     "executable-documents-descriptions": {
       "since": ""
-    },
-    "fragment-arguments": {
-      "since": "-"
-    },
-    "on-error": {
-      "since": "-"
-    },
-    "semantic-introspection": {
-      "since": ""
-    },
-    "semantic-non-null": {
-      "since": "-"
-    },
-    "defer": {
-      "since": ""
-    },
-    "stream": {
-      "since": ""
-    },
-    "http-batching": {
-      "since": "(partial)",
-      "note": "Variable batching only (an array of variable sets); no operation-array batching"
     },
     "field-extensions": {
       "since": "n/a"
     },
-    "automatic-persisted-queries": {
+    "fragment-arguments": {
       "since": "-"
     },
-    "deprecated-input-values": {
-      "since": ""
+    "graphql-response+json": {
+      "since": "-"
     },
-    "directives-on-variable-definitions": {
-      "since": ""
+    "http-batching": {
+      "since": "(partial)",
+      "note": "Variable batching only (an array of variable sets); no operation-array batching"
     },
     "interfaces-on-interfaces": {
       "since": ""
     },
     "mutations": {
       "since": ""
+    },
+    "on-error": {
+      "since": "-"
+    },
+    "one-of": {
+      "since": "(partial)",
+      "note": "Recognized when a schema is loaded via an SDL endpoint, but dropped on the introspection path"
     },
     "persisted-documents": {
       "since": "-"
@@ -73,14 +67,20 @@
       "since": "(partial)",
       "note": "Used for validation and completion, but the `repeatable` keyword is not shown in the schema viewer"
     },
+    "semantic-introspection": {
+      "since": ""
+    },
+    "semantic-non-null": {
+      "since": "-"
+    },
     "specified-by": {
+      "since": ""
+    },
+    "stream": {
       "since": ""
     },
     "subscriptions": {
       "since": ""
-    },
-    "covariant-fields-merging": {
-      "since": "n/a"
     }
   }
 }

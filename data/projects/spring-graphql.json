@@ -4,8 +4,23 @@
   "description": "Spring for GraphQL provides support for Spring applications built on GraphQL Java.",
   "url": "https://github.com/spring-projects/spring-graphql",
   "features": {
+    "automatic-persisted-queries": {
+      "since": "?",
+      "note": ""
+    },
     "capabilities": {
       "since": "?"
+    },
+    "covariant-fields-merging": {
+      "since": "-",
+      "note": ""
+    },
+    "defer": {
+      "since": "?"
+    },
+    "deprecated-input-values": {
+      "since": "",
+      "note": ""
     },
     "deprecated-objects": {
       "since": "?"
@@ -13,55 +28,29 @@
     "directives-on-directives": {
       "since": "?"
     },
+    "directives-on-variable-definitions": {
+      "since": "",
+      "note": ""
+    },
     "executable-documents-descriptions": {
-      "since": "?"
-    },
-    "fragment-arguments": {
-      "since": "?"
-    },
-    "graphql-response+json": {
-      "since": "1.4.0",
-      "note": "[doc](https://docs.spring.io/spring-graphql/reference/transports.html), [commit](https://github.com/spring-projects/spring-graphql/commit/c5fef9b4ab4bcd3d79a5617534298fe249b95211)"
-    },
-    "graphql-over-http": {
-      "since": "1.4.0",
-      "note": "[doc](https://docs.spring.io/spring-graphql/reference/transports.html), [commit](https://github.com/spring-projects/spring-graphql/commit/c5fef9b4ab4bcd3d79a5617534298fe249b95211)"
-    },
-    "on-error": {
-      "since": "?"
-    },
-    "one-of": {
-      "since": "?"
-    },
-    "semantic-introspection": {
-      "since": "?"
-    },
-    "semantic-non-null": {
-      "since": "?"
-    },
-    "defer": {
-      "since": "?"
-    },
-    "stream": {
       "since": "?"
     },
     "field-extensions": {
       "since": "?"
     },
-    "http-batching": {
+    "fragment-arguments": {
       "since": "?"
     },
-    "automatic-persisted-queries": {
-      "since": "?",
-      "note": ""
+    "graphql-over-http": {
+      "since": "1.4.0",
+      "note": "[doc](https://docs.spring.io/spring-graphql/reference/transports.html), [commit](https://github.com/spring-projects/spring-graphql/commit/c5fef9b4ab4bcd3d79a5617534298fe249b95211)"
     },
-    "deprecated-input-values": {
-      "since": "",
-      "note": ""
+    "graphql-response+json": {
+      "since": "1.4.0",
+      "note": "[doc](https://docs.spring.io/spring-graphql/reference/transports.html), [commit](https://github.com/spring-projects/spring-graphql/commit/c5fef9b4ab4bcd3d79a5617534298fe249b95211)"
     },
-    "directives-on-variable-definitions": {
-      "since": "",
-      "note": ""
+    "http-batching": {
+      "since": "?"
     },
     "interfaces-on-interfaces": {
       "since": "",
@@ -70,6 +59,12 @@
     "mutations": {
       "since": "",
       "note": ""
+    },
+    "on-error": {
+      "since": "?"
+    },
+    "one-of": {
+      "since": "?"
     },
     "persisted-documents": {
       "since": "?",
@@ -83,16 +78,21 @@
       "since": "",
       "note": ""
     },
+    "semantic-introspection": {
+      "since": "?"
+    },
+    "semantic-non-null": {
+      "since": "?"
+    },
     "specified-by": {
       "since": "",
       "note": ""
     },
+    "stream": {
+      "since": "?"
+    },
     "subscriptions": {
       "since": "",
-      "note": ""
-    },
-    "covariant-fields-merging": {
-      "since": "-",
       "note": ""
     }
   }

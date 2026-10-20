@@ -4,19 +4,24 @@
   "description": "Hot Chocolate is an open-source GraphQL Server for .NET.",
   "url": "https://github.com/ChilliCream/graphql-platform",
   "features": {
-    "graphql-response+json": {
-      "since": "13.0.0",
-      "note": "[pr](https://github.com/ChilliCream/graphql-platform/pull/5367)"
-    },
-    "graphql-over-http": {
-      "since": "13.0.0",
-      "note": "[pr](https://github.com/ChilliCream/graphql-platform/pull/5367)"
-    },
-    "one-of": {
-      "since": "13.0.0"
+    "automatic-persisted-queries": {
+      "since": "",
+      "note": ""
     },
     "capabilities": {
       "since": "-"
+    },
+    "covariant-fields-merging": {
+      "since": "-",
+      "note": ""
+    },
+    "defer": {
+      "since": "16.0.0",
+      "note": "Hot Chocolate supports `@defer` using the `incremental v0.2` protocol since 16.0.0 and using the older protocol since 13.0.0 ([doc](https://chillicream.com/docs/hotchocolate/server/http-transport#incremental-delivery-defer-stream))"
+    },
+    "deprecated-input-values": {
+      "since": "",
+      "note": ""
     },
     "deprecated-objects": {
       "since": "16.6.1",
@@ -25,49 +30,36 @@
     "directives-on-directives": {
       "since": "16.2.0"
     },
+    "directives-on-variable-definitions": {
+      "since": "",
+      "note": ""
+    },
+    "empty-selection-sets": {
+      "since": "16.7.0",
+      "note": "Opt-in via `EnableEmptySelectionSets` ([pr](https://github.com/ChilliCream/graphql-platform/pull/10337))"
+    },
     "executable-documents-descriptions": {
       "since": "16.0.0",
       "note": "[pr](https://github.com/ChilliCream/graphql-platform/pull/8351)"
-    },
-    "fragment-arguments": {
-      "since": "0.8.0"
-    },
-    "on-error": {
-      "since": "16.0.0"
-    },
-    "semantic-introspection": {
-      "since": "16.0.0"
-    },
-    "semantic-non-null": {
-      "since": "14.2.0"
-    },
-    "defer": {
-      "since": "16.0.0",
-      "note": "Hot Chocolate supports `@defer` using the `incremental v0.2` protocol since 16.0.0 and using the older protocol since 13.0.0 ([doc](https://chillicream.com/docs/hotchocolate/server/http-transport#incremental-delivery-defer-stream))"
-    },
-    "stream": {
-      "since": "16.0.0",
-      "note": "Hot Chocolate supports `@stream` using the `incremental v0.2` protocol since 16.0.0 and using the older protocol since 13.0.0 ([doc](https://chillicream.com/docs/hotchocolate/server/http-transport#incremental-delivery-defer-stream))"
-    },
-    "http-batching": {
-      "since": "16.0.0",
-      "note": "operation batching has been available since 13.0.0. Variable batching with 16.0.0 ([doc](https://chillicream.com/docs/hotchocolate/server/batching))"
     },
     "field-extensions": {
       "since": "(partial)",
       "note": "The execution runtime merges directives and arguments onto fields redeclared in a type extension, but without the RFC's consistency validation (mismatched type, description, or defaults are not enforced)."
     },
-    "automatic-persisted-queries": {
-      "since": "",
-      "note": ""
+    "fragment-arguments": {
+      "since": "0.8.0"
     },
-    "deprecated-input-values": {
-      "since": "",
-      "note": ""
+    "graphql-over-http": {
+      "since": "13.0.0",
+      "note": "[pr](https://github.com/ChilliCream/graphql-platform/pull/5367)"
     },
-    "directives-on-variable-definitions": {
-      "since": "",
-      "note": ""
+    "graphql-response+json": {
+      "since": "13.0.0",
+      "note": "[pr](https://github.com/ChilliCream/graphql-platform/pull/5367)"
+    },
+    "http-batching": {
+      "since": "16.0.0",
+      "note": "operation batching has been available since 13.0.0. Variable batching with 16.0.0 ([doc](https://chillicream.com/docs/hotchocolate/server/batching))"
     },
     "interfaces-on-interfaces": {
       "since": "",
@@ -76,6 +68,12 @@
     "mutations": {
       "since": "",
       "note": ""
+    },
+    "on-error": {
+      "since": "16.0.0"
+    },
+    "one-of": {
+      "since": "13.0.0"
     },
     "persisted-documents": {
       "since": "(partial)",
@@ -89,21 +87,23 @@
       "since": "",
       "note": ""
     },
+    "semantic-introspection": {
+      "since": "16.0.0"
+    },
+    "semantic-non-null": {
+      "since": "14.2.0"
+    },
     "specified-by": {
       "since": "",
       "note": ""
     },
+    "stream": {
+      "since": "16.0.0",
+      "note": "Hot Chocolate supports `@stream` using the `incremental v0.2` protocol since 16.0.0 and using the older protocol since 13.0.0 ([doc](https://chillicream.com/docs/hotchocolate/server/http-transport#incremental-delivery-defer-stream))"
+    },
     "subscriptions": {
       "since": "",
       "note": ""
-    },
-    "covariant-fields-merging": {
-      "since": "-",
-      "note": ""
-    },
-    "empty-selection-sets": {
-      "since": "16.7.0",
-      "note": "Opt-in via `EnableEmptySelectionSets` ([pr](https://github.com/ChilliCream/graphql-platform/pull/10337))"
     }
   }
 }

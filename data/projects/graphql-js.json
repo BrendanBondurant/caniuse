@@ -4,20 +4,24 @@
   "description": "The reference implementation of the GraphQL specification, designed for running GraphQL in a Node.js environment.",
   "url": "https://github.com/graphql/graphql-js",
   "features": {
-    "graphql-response+json": {
+    "automatic-persisted-queries": {
       "since": "n/a",
-      "note": "graphql-js is transport agnostic."
-    },
-    "graphql-over-http": {
-      "since": "n/a",
-      "note": "graphql-js is transport agnostic."
-    },
-    "one-of": {
-      "since": "16.9.0"
+      "note": ""
     },
     "capabilities": {
       "since": "-",
       "note": "[pr](https://github.com/graphql/graphql-js/pull/4523)"
+    },
+    "covariant-fields-merging": {
+      "since": "-",
+      "note": ""
+    },
+    "defer": {
+      "since": "?"
+    },
+    "deprecated-input-values": {
+      "since": "",
+      "note": ""
     },
     "deprecated-objects": {
       "since": "-",
@@ -27,48 +31,43 @@
       "since": "16.14.0",
       "note": "[pr](https://github.com/graphql/graphql-js/pull/4521)"
     },
+    "directives-on-variable-definitions": {
+      "since": "",
+      "note": ""
+    },
+    "empty-abstract-types": {
+      "since": "-",
+      "note": "[pr](https://github.com/graphql/graphql-js/pull/4863)"
+    },
+    "empty-object-types": {
+      "since": "-",
+      "note": "[pr](https://github.com/graphql/graphql-js/pull/4862)"
+    },
+    "empty-selection-sets": {
+      "since": "-",
+      "note": "[pr](https://github.com/graphql/graphql-js/pull/4852)"
+    },
     "executable-documents-descriptions": {
       "since": "16.12.0",
       "note": "[pr](https://github.com/graphql/graphql-js/pull/4482)"
+    },
+    "field-extensions": {
+      "since": "?"
     },
     "fragment-arguments": {
       "since": "17.0.0-alpha.8",
       "note": "[pr](https://github.com/graphql/graphql-js/pull/4015)"
     },
-    "on-error": {
-      "since": "-",
-      "note": "[pr](https://github.com/graphql/graphql-js/pull/4364)"
-    },
-    "semantic-introspection": {
-      "since": "-"
-    },
-    "semantic-non-null": {
+    "graphql-over-http": {
       "since": "n/a",
-      "note": "`@semanticNonNull` is not a built-in directive and will probably never be. It's only used as a transitional phase while tools migrate to `onError: NULL`."
+      "note": "graphql-js is transport agnostic."
     },
-    "defer": {
-      "since": "?"
-    },
-    "stream": {
-      "since": "?"
-    },
-    "field-extensions": {
-      "since": "?"
+    "graphql-response+json": {
+      "since": "n/a",
+      "note": "graphql-js is transport agnostic."
     },
     "http-batching": {
       "since": "?"
-    },
-    "automatic-persisted-queries": {
-      "since": "n/a",
-      "note": ""
-    },
-    "deprecated-input-values": {
-      "since": "",
-      "note": ""
-    },
-    "directives-on-variable-definitions": {
-      "since": "",
-      "note": ""
     },
     "interfaces-on-interfaces": {
       "since": "",
@@ -77,6 +76,13 @@
     "mutations": {
       "since": "",
       "note": ""
+    },
+    "on-error": {
+      "since": "-",
+      "note": "[pr](https://github.com/graphql/graphql-js/pull/4364)"
+    },
+    "one-of": {
+      "since": "16.9.0"
     },
     "persisted-documents": {
       "since": "n/a",
@@ -90,29 +96,23 @@
       "since": "",
       "note": ""
     },
+    "semantic-introspection": {
+      "since": "-"
+    },
+    "semantic-non-null": {
+      "since": "n/a",
+      "note": "`@semanticNonNull` is not a built-in directive and will probably never be. It's only used as a transitional phase while tools migrate to `onError: NULL`."
+    },
     "specified-by": {
       "since": "",
       "note": ""
     },
+    "stream": {
+      "since": "?"
+    },
     "subscriptions": {
       "since": "",
       "note": ""
-    },
-    "covariant-fields-merging": {
-      "since": "-",
-      "note": ""
-    },
-    "empty-selection-sets": {
-      "since": "-",
-      "note": "[pr](https://github.com/graphql/graphql-js/pull/4852)"
-    },
-    "empty-object-types": {
-      "since": "-",
-      "note": "[pr](https://github.com/graphql/graphql-js/pull/4862)"
-    },
-    "empty-abstract-types": {
-      "since": "-",
-      "note": "[pr](https://github.com/graphql/graphql-js/pull/4863)"
     }
   }
 }

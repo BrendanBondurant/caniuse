@@ -4,8 +4,24 @@
   "description": "A configurable, high-performance routing runtime for Apollo Federation",
   "url": "https://github.com/apollographql/router",
   "features": {
+    "automatic-persisted-queries": {
+      "since": "",
+      "note": ""
+    },
     "capabilities": {
       "since": "-"
+    },
+    "covariant-fields-merging": {
+      "since": "-",
+      "note": ""
+    },
+    "defer": {
+      "since": "1.8.0 (partial)",
+      "note": "Apollo Router only supports the [`incremental:0.1` spec](https://specs.apollo.dev/incremental/v0.1/) ([doc](https://www.apollographql.com/docs/graphos/routing/operations/defer))"
+    },
+    "deprecated-input-values": {
+      "since": "",
+      "note": ""
     },
     "deprecated-objects": {
       "since": "-"
@@ -13,58 +29,30 @@
     "directives-on-directives": {
       "since": "-"
     },
+    "directives-on-variable-definitions": {
+      "since": "",
+      "note": ""
+    },
     "executable-documents-descriptions": {
       "since": "-"
     },
+    "field-extensions": {
+      "since": "?"
+    },
     "fragment-arguments": {
       "since": "-"
-    },
-    "graphql-response+json": {
-      "since": "-",
-      "note": "[pr](https://github.com/apollographql/router/pull/9977)"
     },
     "graphql-over-http": {
       "since": "-",
       "note": "[pr](https://github.com/apollographql/router/pull/9977)"
     },
-    "on-error": {
-      "since": "-"
-    },
-    "one-of": {
+    "graphql-response+json": {
       "since": "-",
-      "note": "[apollo-rs pr](https://github.com/apollographql/apollo-rs/pull/1030) is merged. Needs to be included in the router."
-    },
-    "semantic-introspection": {
-      "since": "-"
-    },
-    "semantic-non-null": {
-      "since": "-"
-    },
-    "defer": {
-      "since": "1.8.0 (partial)",
-      "note": "Apollo Router only supports the [`incremental:0.1` spec](https://specs.apollo.dev/incremental/v0.1/) ([doc](https://www.apollographql.com/docs/graphos/routing/operations/defer))"
-    },
-    "stream": {
-      "since": "-"
+      "note": "[pr](https://github.com/apollographql/router/pull/9977)"
     },
     "http-batching": {
       "since": "2.6.0",
       "note": "[doc](https://www.apollographql.com/docs/graphos/routing/performance/query-batching)"
-    },
-    "field-extensions": {
-      "since": "?"
-    },
-    "automatic-persisted-queries": {
-      "since": "",
-      "note": ""
-    },
-    "deprecated-input-values": {
-      "since": "",
-      "note": ""
-    },
-    "directives-on-variable-definitions": {
-      "since": "",
-      "note": ""
     },
     "interfaces-on-interfaces": {
       "since": "",
@@ -73,6 +61,13 @@
     "mutations": {
       "since": "",
       "note": ""
+    },
+    "on-error": {
+      "since": "-"
+    },
+    "one-of": {
+      "since": "-",
+      "note": "[apollo-rs pr](https://github.com/apollographql/apollo-rs/pull/1030) is merged. Needs to be included in the router."
     },
     "persisted-documents": {
       "since": "(partial)",
@@ -86,16 +81,21 @@
       "since": "",
       "note": ""
     },
+    "semantic-introspection": {
+      "since": "-"
+    },
+    "semantic-non-null": {
+      "since": "-"
+    },
     "specified-by": {
       "since": "",
       "note": ""
     },
+    "stream": {
+      "since": "-"
+    },
     "subscriptions": {
       "since": "",
-      "note": ""
-    },
-    "covariant-fields-merging": {
-      "since": "-",
       "note": ""
     }
   }

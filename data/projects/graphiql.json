@@ -4,8 +4,23 @@
   "description": "An interactive in-browser GraphQL IDE.",
   "url": "https://github.com/graphql/graphiql",
   "features": {
+    "automatic-persisted-queries": {
+      "since": "-",
+      "note": ""
+    },
     "capabilities": {
       "since": "?"
+    },
+    "covariant-fields-merging": {
+      "since": "-",
+      "note": ""
+    },
+    "defer": {
+      "since": "?"
+    },
+    "deprecated-input-values": {
+      "since": "",
+      "note": ""
     },
     "deprecated-objects": {
       "since": "?"
@@ -13,56 +28,30 @@
     "directives-on-directives": {
       "since": "?"
     },
+    "directives-on-variable-definitions": {
+      "since": "",
+      "note": ""
+    },
     "executable-documents-descriptions": {
+      "since": "?"
+    },
+    "field-extensions": {
       "since": "?"
     },
     "fragment-arguments": {
       "since": "main",
       "note": "[pr](https://github.com/graphql/graphiql/pull/4462)"
     },
-    "graphql-response+json": {
-      "since": "5.2.3",
-      "note": "[pr](github.com/graphql/graphiql/pull/4199)"
-    },
     "graphql-over-http": {
       "since": "5.2.3",
       "note": "[pr](github.com/graphql/graphiql/pull/4199)"
     },
-    "on-error": {
-      "since": "?"
-    },
-    "one-of": {
-      "since": "?"
-    },
-    "semantic-introspection": {
-      "since": "?"
-    },
-    "semantic-non-null": {
-      "since": "?"
-    },
-    "defer": {
-      "since": "?"
-    },
-    "stream": {
-      "since": "?"
-    },
-    "field-extensions": {
-      "since": "?"
+    "graphql-response+json": {
+      "since": "5.2.3",
+      "note": "[pr](github.com/graphql/graphiql/pull/4199)"
     },
     "http-batching": {
       "since": "?"
-    },
-    "automatic-persisted-queries": {
-      "since": "-",
-      "note": ""
-    },
-    "deprecated-input-values": {
-      "since": "",
-      "note": ""
-    },
-    "directives-on-variable-definitions": {
-      "since": "",
-      "note": ""
     },
     "interfaces-on-interfaces": {
       "since": "",
@@ -71,6 +60,12 @@
     "mutations": {
       "since": "",
       "note": ""
+    },
+    "on-error": {
+      "since": "?"
+    },
+    "one-of": {
+      "since": "?"
     },
     "persisted-documents": {
       "since": "-",
@@ -84,16 +79,21 @@
       "since": "",
       "note": ""
     },
+    "semantic-introspection": {
+      "since": "?"
+    },
+    "semantic-non-null": {
+      "since": "?"
+    },
     "specified-by": {
       "since": "",
       "note": ""
     },
+    "stream": {
+      "since": "?"
+    },
     "subscriptions": {
       "since": "",
-      "note": ""
-    },
-    "covariant-fields-merging": {
-      "since": "-",
       "note": ""
     }
   }

@@ -4,28 +4,25 @@
   "description": "A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform. Over time, Apollo Kotlin grew into a full Kotlin implementation of the GraphQL spec. This explains why features such as capabilities or direcdtives on directives are implemented",
   "url": "https://github.com/apollographql/apollo-kotlin",
   "features": {
+    "automatic-persisted-queries": {
+      "since": "",
+      "note": ""
+    },
     "capabilities": {
       "since": "5.0.0-alpha.5",
       "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/6858), experimental and not documented yet."
     },
-    "field-extensions": {
-      "since": "5.0.0-alpha.5",
-      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/6856), experimental and not documented yet."
+    "covariant-fields-merging": {
+      "since": "-",
+      "note": ""
     },
-    "graphql-response+json": {
-      "since": "4.1.0",
-      "note": "[Apollo Kotlin pull request](https://github.com/apollographql/apollo-kotlin/pull/6170)"
+    "defer": {
+      "since": "5.0.0-alpha.3",
+      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/6331), [doc](https://www.apollographql.com/docs/kotlin/v5/fetching/defer)"
     },
-    "graphql-over-http": {
-      "since": "4.1.0",
-      "note": "[Apollo Kotlin pull request](https://github.com/apollographql/apollo-kotlin/pull/6170)"
-    },
-    "on-error": {
-      "since": "5.0.0-alpha.5",
-      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/6860), experimental and not documented yet."
-    },
-    "one-of": {
-      "since": "4.0.0"
+    "deprecated-input-values": {
+      "since": "",
+      "note": ""
     },
     "deprecated-objects": {
       "since": "-"
@@ -34,44 +31,45 @@
       "since": "5.0.0-alpha.4",
       "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/6803), experimental, behind the `allowDirectivesOnDirectives` flag, and not documented yet."
     },
+    "directives-on-variable-definitions": {
+      "since": "",
+      "note": ""
+    },
+    "empty-abstract-types": {
+      "since": "main",
+      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7035), empty interfaces only (not verified for unions)."
+    },
+    "empty-object-types": {
+      "since": "main",
+      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7035)"
+    },
+    "empty-selection-sets": {
+      "since": "main",
+      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7015)"
+    },
     "executable-documents-descriptions": {
       "since": "4.0.0",
       "note": "This has been supported for a long time and there is no feature flag. Apollo Kotlin does not detect this as an error if a document were to include them."
+    },
+    "field-extensions": {
+      "since": "5.0.0-alpha.5",
+      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/6856), experimental and not documented yet."
     },
     "fragment-arguments": {
       "since": "5.0.0-alpha.5",
       "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/6882), experimental and not documented yet."
     },
-    "semantic-introspection": {
-      "since": "-"
+    "graphql-over-http": {
+      "since": "4.1.0",
+      "note": "[Apollo Kotlin pull request](https://github.com/apollographql/apollo-kotlin/pull/6170)"
     },
-    "semantic-non-null": {
-      "since": "4.0.0",
-      "note": "[doc](https://www.apollographql.com/docs/kotlin/v5/advanced/nullability)"
-    },
-    "defer": {
-      "since": "5.0.0-alpha.3",
-      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/6331), [doc](https://www.apollographql.com/docs/kotlin/v5/fetching/defer)"
-    },
-    "stream": {
-      "since": "5.0.0-alpha.3",
-      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/6331), [doc](https://www.apollographql.com/docs/kotlin/v5/fetching/defer)"
+    "graphql-response+json": {
+      "since": "4.1.0",
+      "note": "[Apollo Kotlin pull request](https://github.com/apollographql/apollo-kotlin/pull/6170)"
     },
     "http-batching": {
       "since": "4.0.0 (partial)",
       "note": "Apollo Kotlin supports operation batching using the [Apollo format](https://www.apollographql.com/docs/graphos/routing/performance/query-batching#query-batch-formats). Variable batching is not supported."
-    },
-    "automatic-persisted-queries": {
-      "since": "",
-      "note": ""
-    },
-    "deprecated-input-values": {
-      "since": "",
-      "note": ""
-    },
-    "directives-on-variable-definitions": {
-      "since": "",
-      "note": ""
     },
     "interfaces-on-interfaces": {
       "since": "",
@@ -81,6 +79,13 @@
       "since": "",
       "note": ""
     },
+    "on-error": {
+      "since": "5.0.0-alpha.5",
+      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/6860), experimental and not documented yet."
+    },
+    "one-of": {
+      "since": "4.0.0"
+    },
     "persisted-documents": {
       "since": "(partial)",
       "note": "The protocol for persisted documents is still TBD"
@@ -89,37 +94,32 @@
       "since": "",
       "note": ""
     },
+    "query-http-verb": {
+      "since": "main",
+      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7016)"
+    },
     "repeatable-directives": {
       "since": "",
       "note": ""
+    },
+    "semantic-introspection": {
+      "since": "-"
+    },
+    "semantic-non-null": {
+      "since": "4.0.0",
+      "note": "[doc](https://www.apollographql.com/docs/kotlin/v5/advanced/nullability)"
     },
     "specified-by": {
       "since": "",
       "note": ""
     },
+    "stream": {
+      "since": "5.0.0-alpha.3",
+      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/6331), [doc](https://www.apollographql.com/docs/kotlin/v5/fetching/defer)"
+    },
     "subscriptions": {
       "since": "",
       "note": ""
-    },
-    "covariant-fields-merging": {
-      "since": "-",
-      "note": ""
-    },
-    "empty-selection-sets": {
-      "since": "main",
-      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7015)"
-    },
-    "query-http-verb": {
-      "since": "main",
-      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7016)"
-    },
-    "empty-object-types": {
-      "since": "main",
-      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7035)"
-    },
-    "empty-abstract-types": {
-      "since": "main",
-      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7035), empty interfaces only (not verified for unions)."
     }
   }
 }

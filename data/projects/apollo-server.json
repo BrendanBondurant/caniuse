@@ -4,16 +4,24 @@
   "description": "A GraphQL server from Apollo that works with any Node.js HTTP framework",
   "url": "https://github.com/apollographql/apollo-server",
   "features": {
-    "graphql-response+json": {
-      "since": "13.0.0",
-      "note": "[Apollo Server pull request](https://github.com/apollographql/apollo-server/pull/6827)"
-    },
-    "graphql-over-http": {
-      "since": "13.0.0",
-      "note": "[Apollo Server pull request](https://github.com/apollographql/apollo-server/pull/6827)"
+    "automatic-persisted-queries": {
+      "since": "",
+      "note": ""
     },
     "capabilities": {
       "since": "?"
+    },
+    "covariant-fields-merging": {
+      "since": "-",
+      "note": ""
+    },
+    "defer": {
+      "since": "5.1.0",
+      "note": "`@defer` support requires `graphql-js:17.0.0-alpha.9` ([doc](https://www.apollographql.com/docs/apollo-server/workflow/requests#incremental-delivery-experimental))"
+    },
+    "deprecated-input-values": {
+      "since": "",
+      "note": ""
     },
     "deprecated-objects": {
       "since": "?"
@@ -21,49 +29,29 @@
     "directives-on-directives": {
       "since": "?"
     },
+    "directives-on-variable-definitions": {
+      "since": "",
+      "note": ""
+    },
     "executable-documents-descriptions": {
+      "since": "?"
+    },
+    "field-extensions": {
       "since": "?"
     },
     "fragment-arguments": {
       "since": "?"
     },
-    "on-error": {
-      "since": "?"
+    "graphql-over-http": {
+      "since": "13.0.0",
+      "note": "[Apollo Server pull request](https://github.com/apollographql/apollo-server/pull/6827)"
     },
-    "one-of": {
-      "since": "?"
-    },
-    "semantic-introspection": {
-      "since": "?"
-    },
-    "semantic-non-null": {
-      "since": "?"
-    },
-    "defer": {
-      "since": "5.1.0",
-      "note": "`@defer` support requires `graphql-js:17.0.0-alpha.9` ([doc](https://www.apollographql.com/docs/apollo-server/workflow/requests#incremental-delivery-experimental))"
-    },
-    "stream": {
-      "since": "5.1.0",
-      "note": "`@stream` support requires `graphql-js:17.0.0-alpha.9` ([doc](https://www.apollographql.com/docs/apollo-server/workflow/requests#incremental-delivery-experimental))"
-    },
-    "field-extensions": {
-      "since": "?"
+    "graphql-response+json": {
+      "since": "13.0.0",
+      "note": "[Apollo Server pull request](https://github.com/apollographql/apollo-server/pull/6827)"
     },
     "http-batching": {
       "since": "?"
-    },
-    "automatic-persisted-queries": {
-      "since": "",
-      "note": ""
-    },
-    "deprecated-input-values": {
-      "since": "",
-      "note": ""
-    },
-    "directives-on-variable-definitions": {
-      "since": "",
-      "note": ""
     },
     "interfaces-on-interfaces": {
       "since": "",
@@ -72,6 +60,12 @@
     "mutations": {
       "since": "",
       "note": ""
+    },
+    "on-error": {
+      "since": "?"
+    },
+    "one-of": {
+      "since": "?"
     },
     "persisted-documents": {
       "since": "(partial)",
@@ -85,16 +79,22 @@
       "since": "",
       "note": ""
     },
+    "semantic-introspection": {
+      "since": "?"
+    },
+    "semantic-non-null": {
+      "since": "?"
+    },
     "specified-by": {
       "since": "",
       "note": ""
     },
+    "stream": {
+      "since": "5.1.0",
+      "note": "`@stream` support requires `graphql-js:17.0.0-alpha.9` ([doc](https://www.apollographql.com/docs/apollo-server/workflow/requests#incremental-delivery-experimental))"
+    },
     "subscriptions": {
       "since": "",
-      "note": ""
-    },
-    "covariant-fields-merging": {
-      "since": "-",
       "note": ""
     }
   }

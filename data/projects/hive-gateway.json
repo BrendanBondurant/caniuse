@@ -4,14 +4,24 @@
   "description": "Fully open-source, MIT-licensed GraphQL router that can act as a GraphQL Federation gateway, a subgraph or a proxy gateway for any GraphQL API service.",
   "url": "https://the-guild.dev/graphql/hive/gateway",
   "features": {
-    "graphql-response+json": {
-      "since": "1.0.0"
-    },
-    "graphql-over-http": {
-      "since": "1.0.0"
+    "automatic-persisted-queries": {
+      "since": "",
+      "note": ""
     },
     "capabilities": {
       "since": "-"
+    },
+    "covariant-fields-merging": {
+      "since": "-",
+      "note": ""
+    },
+    "defer": {
+      "since": "1.0.0 (partial)",
+      "note": "Only supports the [`incremental:0.1` format](https://specs.apollo.dev/incremental/v0.1/). [Read more.](https://the-guild.dev/graphql/hive/docs/gateway/defer-stream)"
+    },
+    "deprecated-input-values": {
+      "since": "",
+      "note": ""
     },
     "deprecated-objects": {
       "since": "-"
@@ -19,51 +29,28 @@
     "directives-on-directives": {
       "since": "-"
     },
+    "directives-on-variable-definitions": {
+      "since": "",
+      "note": ""
+    },
     "executable-documents-descriptions": {
       "since": "-"
-    },
-    "fragment-arguments": {
-      "since": "-"
-    },
-    "on-error": {
-      "since": "-"
-    },
-    "one-of": {
-      "since": "1.0.0",
-      "note": "Requires the envelop extended validation plugin. [Read more.](https://github.com/graphql-hive/graphql-yoga/blob/main/packages/envelop/plugins/extended-validation/README.md"
-    },
-    "semantic-introspection": {
-      "since": "-"
-    },
-    "semantic-non-null": {
-      "since": "-"
-    },
-    "defer": {
-      "since": "1.0.0 (partial)",
-      "note": "Only supports the [`incremental:0.1` format](https://specs.apollo.dev/incremental/v0.1/). [Read more.](https://the-guild.dev/graphql/hive/docs/gateway/defer-stream)"
-    },
-    "stream": {
-      "since": "1.0.0 (partial)",
-      "note": "Only supports the [`incremental:0.1` format](https://specs.apollo.dev/incremental/v0.1/). [Read more.](https://the-guild.dev/graphql/hive/docs/gateway/defer-stream)"
-    },
-    "http-batching": {
-      "since": "1.0.0",
-      "note": "[Read more.](https://the-guild.dev/graphql/hive/docs/gateway/other-features/performance/request-batching)"
     },
     "field-extensions": {
       "since": "?"
     },
-    "automatic-persisted-queries": {
-      "since": "",
-      "note": ""
+    "fragment-arguments": {
+      "since": "-"
     },
-    "deprecated-input-values": {
-      "since": "",
-      "note": ""
+    "graphql-over-http": {
+      "since": "1.0.0"
     },
-    "directives-on-variable-definitions": {
-      "since": "",
-      "note": ""
+    "graphql-response+json": {
+      "since": "1.0.0"
+    },
+    "http-batching": {
+      "since": "1.0.0",
+      "note": "[Read more.](https://the-guild.dev/graphql/hive/docs/gateway/other-features/performance/request-batching)"
     },
     "interfaces-on-interfaces": {
       "since": "",
@@ -72,6 +59,13 @@
     "mutations": {
       "since": "",
       "note": ""
+    },
+    "on-error": {
+      "since": "-"
+    },
+    "one-of": {
+      "since": "1.0.0",
+      "note": "Requires the envelop extended validation plugin. [Read more.](https://github.com/graphql-hive/graphql-yoga/blob/main/packages/envelop/plugins/extended-validation/README.md"
     },
     "persisted-documents": {
       "since": "(partial)",
@@ -85,16 +79,22 @@
       "since": "",
       "note": ""
     },
+    "semantic-introspection": {
+      "since": "-"
+    },
+    "semantic-non-null": {
+      "since": "-"
+    },
     "specified-by": {
       "since": "",
       "note": ""
     },
+    "stream": {
+      "since": "1.0.0 (partial)",
+      "note": "Only supports the [`incremental:0.1` format](https://specs.apollo.dev/incremental/v0.1/). [Read more.](https://the-guild.dev/graphql/hive/docs/gateway/defer-stream)"
+    },
     "subscriptions": {
       "since": "",
-      "note": ""
-    },
-    "covariant-fields-merging": {
-      "since": "-",
       "note": ""
     }
   }

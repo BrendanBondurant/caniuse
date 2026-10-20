@@ -4,8 +4,24 @@
   "description": "Magical GraphQL query engine for TypeScript.",
   "url": "https://github.com/0no-co/gql.tada",
   "features": {
+    "automatic-persisted-queries": {
+      "since": "n/a",
+      "note": "gql.tada is transport agnostic."
+    },
     "capabilities": {
       "since": "-"
+    },
+    "covariant-fields-merging": {
+      "since": "-",
+      "note": ""
+    },
+    "defer": {
+      "since": "1.0.0 (partial)",
+      "note": "gql.tada is transport agnostic, but types deferred fragment spreads as optional. Related fixes shipped in 1.8.0 and 1.8.3."
+    },
+    "deprecated-input-values": {
+      "since": "",
+      "note": ""
     },
     "deprecated-objects": {
       "since": "-"
@@ -13,61 +29,31 @@
     "directives-on-directives": {
       "since": "-"
     },
+    "directives-on-variable-definitions": {
+      "since": "",
+      "note": ""
+    },
     "executable-documents-descriptions": {
       "since": "1.9.0",
       "note": "[pr](https://github.com/0no-co/gql.tada/pull/479)"
     },
-    "fragment-arguments": {
+    "field-extensions": {
       "since": "-"
     },
-    "graphql-response+json": {
-      "since": "n/a",
-      "note": "gql.tada is transport agnostic."
+    "fragment-arguments": {
+      "since": "-"
     },
     "graphql-over-http": {
       "since": "n/a",
       "note": "gql.tada is transport agnostic."
     },
-    "on-error": {
-      "since": "-"
-    },
-    "one-of": {
-      "since": "1.7.0",
-      "note": "[pr](https://github.com/0no-co/gql.tada/pull/284)"
-    },
-    "semantic-introspection": {
-      "since": "-"
-    },
-    "semantic-non-null": {
-      "since": "-",
-      "note": "gql.tada supports its own client-controlled nullability directives (`@_required` and `@_optional`) since 1.1.0, but not semantic non-null."
-    },
-    "defer": {
-      "since": "1.0.0 (partial)",
-      "note": "gql.tada is transport agnostic, but types deferred fragment spreads as optional. Related fixes shipped in 1.8.0 and 1.8.3."
-    },
-    "stream": {
+    "graphql-response+json": {
       "since": "n/a",
-      "note": "gql.tada is transport agnostic; `@stream` delivery is handled by the client/server transport."
-    },
-    "field-extensions": {
-      "since": "-"
+      "note": "gql.tada is transport agnostic."
     },
     "http-batching": {
       "since": "n/a",
       "note": "gql.tada is transport agnostic."
-    },
-    "automatic-persisted-queries": {
-      "since": "n/a",
-      "note": "gql.tada is transport agnostic."
-    },
-    "deprecated-input-values": {
-      "since": "",
-      "note": ""
-    },
-    "directives-on-variable-definitions": {
-      "since": "",
-      "note": ""
     },
     "interfaces-on-interfaces": {
       "since": "",
@@ -76,6 +62,13 @@
     "mutations": {
       "since": "",
       "note": ""
+    },
+    "on-error": {
+      "since": "-"
+    },
+    "one-of": {
+      "since": "1.7.0",
+      "note": "[pr](https://github.com/0no-co/gql.tada/pull/284)"
     },
     "persisted-documents": {
       "since": "n/a",
@@ -89,16 +82,23 @@
       "since": "",
       "note": ""
     },
+    "semantic-introspection": {
+      "since": "-"
+    },
+    "semantic-non-null": {
+      "since": "-",
+      "note": "gql.tada supports its own client-controlled nullability directives (`@_required` and `@_optional`) since 1.1.0, but not semantic non-null."
+    },
     "specified-by": {
       "since": "",
       "note": ""
     },
+    "stream": {
+      "since": "n/a",
+      "note": "gql.tada is transport agnostic; `@stream` delivery is handled by the client/server transport."
+    },
     "subscriptions": {
       "since": "",
-      "note": ""
-    },
-    "covariant-fields-merging": {
-      "since": "-",
       "note": ""
     }
   }

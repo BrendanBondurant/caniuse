@@ -4,16 +4,24 @@
   "description": "GraphQL Yoga is a batteries-included cross-platform GraphQL over HTTP spec-compliant GraphQL Server using Envelop and GraphQL Tools that runs anywhere.",
   "url": "https://the-guild.dev/graphql/yoga-server",
   "features": {
-    "graphql-response+json": {
-      "since": "3.4.1",
-      "note": "[pr](https://github.com/graphql-hive/graphql-yoga/pull/1616)"
-    },
-    "graphql-over-http": {
-      "since": "3.4.1",
-      "note": "[pr](https://github.com/graphql-hive/graphql-yoga/pull/1616)"
+    "automatic-persisted-queries": {
+      "since": "",
+      "note": "With the `@graphql-yoga/plugin-apq` plugin."
     },
     "capabilities": {
       "since": "-"
+    },
+    "covariant-fields-merging": {
+      "since": "-",
+      "note": ""
+    },
+    "defer": {
+      "since": "3.0.0",
+      "note": "Requires the defer and stream plugin. [Read more.](https://the-guild.dev/graphql/yoga-server/docs/features/defer-stream)"
+    },
+    "deprecated-input-values": {
+      "since": "",
+      "note": ""
     },
     "deprecated-objects": {
       "since": "-"
@@ -21,51 +29,30 @@
     "directives-on-directives": {
       "since": "-"
     },
+    "directives-on-variable-definitions": {
+      "since": "",
+      "note": ""
+    },
     "executable-documents-descriptions": {
       "since": "-"
-    },
-    "fragment-arguments": {
-      "since": "-"
-    },
-    "on-error": {
-      "since": "-"
-    },
-    "one-of": {
-      "since": "2.0.0",
-      "note": "Requires the envelop extended validation plugin. [Read more.](https://github.com/graphql-hive/graphql-yoga/blob/main/packages/envelop/plugins/extended-validation/README.md)"
-    },
-    "semantic-introspection": {
-      "since": "-"
-    },
-    "semantic-non-null": {
-      "since": "-"
-    },
-    "defer": {
-      "since": "3.0.0",
-      "note": "Requires the defer and stream plugin. [Read more.](https://the-guild.dev/graphql/yoga-server/docs/features/defer-stream)"
-    },
-    "stream": {
-      "since": "3.0.0",
-      "note": "Requires the defer and stream plugin. [Read more.](https://the-guild.dev/graphql/yoga-server/docs/features/defer-stream)"
-    },
-    "http-batching": {
-      "since": "3.0.0",
-      "note": "[Read more.](https://the-guild.dev/graphql/yoga-server/docs/features/request-batching)"
     },
     "field-extensions": {
       "since": "?"
     },
-    "automatic-persisted-queries": {
-      "since": "",
-      "note": "With the `@graphql-yoga/plugin-apq` plugin."
+    "fragment-arguments": {
+      "since": "-"
     },
-    "deprecated-input-values": {
-      "since": "",
-      "note": ""
+    "graphql-over-http": {
+      "since": "3.4.1",
+      "note": "[pr](https://github.com/graphql-hive/graphql-yoga/pull/1616)"
     },
-    "directives-on-variable-definitions": {
-      "since": "",
-      "note": ""
+    "graphql-response+json": {
+      "since": "3.4.1",
+      "note": "[pr](https://github.com/graphql-hive/graphql-yoga/pull/1616)"
+    },
+    "http-batching": {
+      "since": "3.0.0",
+      "note": "[Read more.](https://the-guild.dev/graphql/yoga-server/docs/features/request-batching)"
     },
     "interfaces-on-interfaces": {
       "since": "",
@@ -74,6 +61,13 @@
     "mutations": {
       "since": "",
       "note": ""
+    },
+    "on-error": {
+      "since": "-"
+    },
+    "one-of": {
+      "since": "2.0.0",
+      "note": "Requires the envelop extended validation plugin. [Read more.](https://github.com/graphql-hive/graphql-yoga/blob/main/packages/envelop/plugins/extended-validation/README.md)"
     },
     "persisted-documents": {
       "since": "(partial)",
@@ -87,16 +81,22 @@
       "since": "",
       "note": ""
     },
+    "semantic-introspection": {
+      "since": "-"
+    },
+    "semantic-non-null": {
+      "since": "-"
+    },
     "specified-by": {
       "since": "",
       "note": ""
     },
+    "stream": {
+      "since": "3.0.0",
+      "note": "Requires the defer and stream plugin. [Read more.](https://the-guild.dev/graphql/yoga-server/docs/features/defer-stream)"
+    },
     "subscriptions": {
       "since": "",
-      "note": ""
-    },
-    "covariant-fields-merging": {
-      "since": "-",
       "note": ""
     }
   }

@@ -4,9 +4,25 @@
   "description": "A powerful JavaScript GraphQL client, designed to work well with React, React Native, Angular 2, or just plain JavaScript.",
   "url": "https://github.com/apollographql/apollo-client",
   "features": {
+    "automatic-persisted-queries": {
+      "since": "",
+      "note": ""
+    },
     "capabilities": {
       "since": "n/a",
       "note": "There is no server capability so far that could justify adding support in Apollo Client"
+    },
+    "covariant-fields-merging": {
+      "since": "-",
+      "note": ""
+    },
+    "defer": {
+      "since": "4.1",
+      "note": "Apollo Client supports `@defer` using both `incremental v0.1` and `incremental v0.2` since 4.0. The protocol needs explicit opt-it ([blog post](https://www.apollographql.com/blog/stream-all-the-things-with-apollo-client-4-1))"
+    },
+    "deprecated-input-values": {
+      "since": "",
+      "note": ""
     },
     "deprecated-objects": {
       "since": "n/a"
@@ -14,57 +30,29 @@
     "directives-on-directives": {
       "since": "n/a"
     },
+    "directives-on-variable-definitions": {
+      "since": "",
+      "note": ""
+    },
     "executable-documents-descriptions": {
       "since": "n/a"
     },
+    "field-extensions": {
+      "since": "?"
+    },
     "fragment-arguments": {
       "since": "-"
-    },
-    "graphql-response+json": {
-      "since": "4.0.0",
-      "note": "[pr](https://github.com/apollographql/apollo-client/pull/12254)"
     },
     "graphql-over-http": {
       "since": "4.0.0",
       "note": "[pr](https://github.com/apollographql/apollo-client/pull/12254)"
     },
-    "on-error": {
-      "since": "-"
-    },
-    "one-of": {
-      "since": "n/a"
-    },
-    "semantic-introspection": {
-      "since": "n/a"
-    },
-    "semantic-non-null": {
-      "since": "n/a"
-    },
-    "defer": {
-      "since": "4.1",
-      "note": "Apollo Client supports `@defer` using both `incremental v0.1` and `incremental v0.2` since 4.0. The protocol needs explicit opt-it ([blog post](https://www.apollographql.com/blog/stream-all-the-things-with-apollo-client-4-1))"
-    },
-    "stream": {
-      "since": "4.1",
-      "note": "Apollo Client supports `@stream` using both `incremental v0.1` and `incremental v0.2` since 4.1. The protocol needs explicit opt-it ([blog post](https://www.apollographql.com/blog/stream-all-the-things-with-apollo-client-4-1))"
-    },
-    "field-extensions": {
-      "since": "?"
+    "graphql-response+json": {
+      "since": "4.0.0",
+      "note": "[pr](https://github.com/apollographql/apollo-client/pull/12254)"
     },
     "http-batching": {
       "since": "?"
-    },
-    "automatic-persisted-queries": {
-      "since": "",
-      "note": ""
-    },
-    "deprecated-input-values": {
-      "since": "",
-      "note": ""
-    },
-    "directives-on-variable-definitions": {
-      "since": "",
-      "note": ""
     },
     "interfaces-on-interfaces": {
       "since": "",
@@ -73,6 +61,12 @@
     "mutations": {
       "since": "",
       "note": ""
+    },
+    "on-error": {
+      "since": "-"
+    },
+    "one-of": {
+      "since": "n/a"
     },
     "persisted-documents": {
       "since": "(partial)",
@@ -86,16 +80,22 @@
       "since": "",
       "note": ""
     },
+    "semantic-introspection": {
+      "since": "n/a"
+    },
+    "semantic-non-null": {
+      "since": "n/a"
+    },
     "specified-by": {
       "since": "",
       "note": ""
     },
+    "stream": {
+      "since": "4.1",
+      "note": "Apollo Client supports `@stream` using both `incremental v0.1` and `incremental v0.2` since 4.1. The protocol needs explicit opt-it ([blog post](https://www.apollographql.com/blog/stream-all-the-things-with-apollo-client-4-1))"
+    },
     "subscriptions": {
       "since": "",
-      "note": ""
-    },
-    "covariant-fields-merging": {
-      "since": "-",
       "note": ""
     }
   }
