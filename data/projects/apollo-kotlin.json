@@ -112,6 +112,14 @@
     "query-http-verb": {
       "since": "main",
       "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7016)"
+    },
+    "empty-object-types": {
+      "since": "main",
+      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7035)"
+    },
+    "empty-abstract-types": {
+      "since": "main",
+      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7035), empty interfaces only (not verified for unions)."
     }
   }
 }

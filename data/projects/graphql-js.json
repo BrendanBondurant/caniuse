@@ -105,6 +105,14 @@
     "empty-selection-sets": {
       "since": "-",
       "note": "[pr](https://github.com/graphql/graphql-js/pull/4852)"
+    },
+    "empty-object-types": {
+      "since": "-",
+      "note": "[pr](https://github.com/graphql/graphql-js/pull/4862)"
+    },
+    "empty-abstract-types": {
+      "since": "-",
+      "note": "[pr](https://github.com/graphql/graphql-js/pull/4863)"
     }
   }
 }
