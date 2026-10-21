@@ -11,10 +11,6 @@
     "capabilities": {
       "since": "-"
     },
-    "covariant-fields-merging": {
-      "since": "-",
-      "note": ""
-    },
     "defer": {
       "since": "1.8.0 (partial)",
       "note": "Apollo Router only supports the [`incremental:0.1` spec](https://specs.apollo.dev/incremental/v0.1/) ([doc](https://www.apollographql.com/docs/graphos/routing/operations/defer))"

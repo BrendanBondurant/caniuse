@@ -11,10 +11,6 @@
     "capabilities": {
       "since": "-"
     },
-    "covariant-fields-merging": {
-      "since": "-",
-      "note": ""
-    },
     "defer": {
       "since": "?"
     },

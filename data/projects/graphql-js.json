@@ -12,10 +12,6 @@
       "since": "-",
       "note": "[pr](https://github.com/graphql/graphql-js/pull/4523)"
     },
-    "covariant-fields-merging": {
-      "since": "-",
-      "note": ""
-    },
     "defer": {
       "since": "?"
     },

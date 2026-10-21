@@ -11,10 +11,6 @@
     "capabilities": {
       "since": "-"
     },
-    "covariant-fields-merging": {
-      "since": "n/a",
-      "note": "Provided by [GraphQL.js](../graphql-js)"
-    },
     "defer": {
       "since": "16.12.0",
       "note": "Requires `graphql@17` and the `defer` option. Clients must send `Accept: multipart/mixed; deferSpec=20220824`. Not compatible with `jit`. [Read more.](https://github.com/mercurius-js/mercurius/blob/master/docs/api/options.md)"

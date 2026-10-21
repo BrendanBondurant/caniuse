@@ -11,10 +11,6 @@
     "capabilities": {
       "since": "-"
     },
-    "covariant-fields-merging": {
-      "since": "-",
-      "note": ""
-    },
     "defer": {
       "since": "1.0.0 (partial)",
       "note": "Only supports the [`incremental:0.1` format](https://specs.apollo.dev/incremental/v0.1/). [Read more.](https://the-guild.dev/graphql/hive/docs/gateway/defer-stream)"

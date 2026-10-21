@@ -11,10 +11,6 @@
     "capabilities": {
       "since": "-"
     },
-    "covariant-fields-merging": {
-      "since": "-",
-      "note": ""
-    },
     "defer": {
       "since": "16.0.0",
       "note": "Hot Chocolate supports `@defer` using the `incremental v0.2` protocol since 16.0.0 and using the older protocol since 13.0.0 ([doc](https://chillicream.com/docs/hotchocolate/server/http-transport#incremental-delivery-defer-stream))"

@@ -11,10 +11,6 @@
     "capabilities": {
       "since": "-"
     },
-    "covariant-fields-merging": {
-      "since": "-",
-      "note": ""
-    },
     "defer": {
       "since": "1.0.0 (partial)",
       "note": "gql.tada is transport agnostic, but types deferred fragment spreads as optional. Related fixes shipped in 1.8.0 and 1.8.3."

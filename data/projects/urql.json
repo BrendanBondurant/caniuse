@@ -12,10 +12,6 @@
       "since": "n/a",
       "note": "There is no built-in service-capabilities discovery/configuration in urql."
     },
-    "covariant-fields-merging": {
-      "since": "-",
-      "note": ""
-    },
     "defer": {
       "since": "2.3.0",
       "note": "Experimental multipart incremental delivery support for `@defer` and `@stream` was added in 2.3.0 ([pr](https://github.com/FormidableLabs/urql/pull/1854)). The protocol was later updated in 3.2.0 ([pr](https://github.com/urql-graphql/urql/pull/3007)) and 4.1.4 ([pr](https://github.com/urql-graphql/urql/pull/3389))."
